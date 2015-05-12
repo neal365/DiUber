@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">丢步</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_about">关于</string>
+    <string name="action_download">下载专车APP</string>
+    <string name="action_root">了解ROOT</string>
+    <string name="action_exit">结束</string>
+</resources>

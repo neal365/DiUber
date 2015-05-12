@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="丢步 为专车司机服务" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+    <TextView android:text="欢迎关注“丢步”\n" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView"
+        android:id="@+id/textView1" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一键备份"
+        android:id="@+id/btn_backup"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_blue"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一键隐藏"
+        android:id="@+id/btn_uninstall"
+        android:layout_below="@+id/btn_backup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/btn_red"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="15dp"
+        android:layout_alignRight="@+id/seekBar"
+        android:layout_alignEnd="@+id/seekBar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一键恢复"
+        android:id="@+id/btn_install"
+        android:layout_below="@+id/btn_uninstall"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btn_uninstall"
+        android:layout_alignEnd="@+id/btn_uninstall"
+        android:background="@drawable/btn_blue"
+        android:textColor="@android:color/background_light" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_below="@+id/btn_install"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="摇一摇强度设置           弱---->>----强"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/seekBar"
+        android:layout_centerHorizontal="true"
+         />
+    <TextView android:text="请在服务未开始时测试，有震动反馈" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView2"
+        android:id="@+id/textView3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始服务"
+        android:id="@+id/btn_start"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/seekBar"
+        android:layout_alignEnd="@+id/seekBar"
+        android:textColor="@android:color/background_light"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/btn_orange" />
+
+    <TextView
+        android:text="请在测试好摇一摇强度和隐藏功能后开启"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_above="@+id/btn_start"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

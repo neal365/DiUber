@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="flat01">#1abc9c</color>
+    <color name="flat11">#2ecc71</color>
+    <color name="flat21">#3498db</color>
+    <color name="flat31">#9b59b6</color>
+    <color name="flat41">#34495e</color>
+    <color name="flat51">#f1c40f</color>
+    <color name="flat61">#e67e22</color>
+    <color name="flat71">#e74c3c</color>
+    <color name="flat81">#ecf0f1</color>
+    <color name="flat91">#95a5a6</color>
+    <color name="flat02">#16a085</color>
+    <color name="flat12">#27ae60</color>
+    <color name="flat22">#2980b9</color>
+    <color name="flat32">#8e44ad</color>
+    <color name="flat42">#2c3e50</color>
+    <color name="flat52">#f39c12</color>
+    <color name="flat62">#d35400</color>
+    <color name="flat72">#c0392b</color>
+    <color name="flat82">#bdc3c7</color>
+    <color name="flat92">#7f8c8d</color>
+
+
+
+
+    <color name="safe_mode_text">#80ffffff</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="background_dark">#ff000000</color>
+    <color name="background_light">#ffffffff</color>
+    <color name="bright_foreground_dark">@color/background_light</color>
+    <color name="bright_foreground_light">@color/background_dark</color>
+    <color name="bright_foreground_dark_disabled">#80ffffff</color>
+    <color name="bright_foreground_light_disabled">#80000000</color>
+    <color name="bright_foreground_dark_inverse">@color/bright_foreground_light</color>
+    <color name="bright_foreground_light_inverse">@color/bright_foreground_dark</color>
+    <color name="skin_gray">#ff777777</color>
+
+
+</resources>
